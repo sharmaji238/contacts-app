@@ -1,6 +1,6 @@
 {
-  "name": "contacts-app",
-  "homepage": "https://sharmaji238.github.io/contacts",
+  "name": "contacts-app",  
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
