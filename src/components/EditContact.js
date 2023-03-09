@@ -24,7 +24,7 @@ export const EditContact = (props) => {
     
  }   
           return (
-             <form className='form' onSubmit={update}>
+             <form className='form' style={{opacity: .7}} onSubmit={update}>
              <div className='subtitle'>           
              <Link to="/">
              <button className='navigate' style={{float:'right'}}>Contact List</button>           

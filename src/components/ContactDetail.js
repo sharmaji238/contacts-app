@@ -14,7 +14,7 @@ export const ContactDetail = (props) => {
   const data = location.state?.data;
   return (
     <>
-      <div className='main'>
+      <div className='main' >
         <div className='ui card centered'>
             <div className='image'>
             {/* <div className='description'>{data.id}</div> */}
@@ -22,9 +22,9 @@ export const ContactDetail = (props) => {
             </div>             
             <div className='content'> 
            
-                <div className='header'>{data.name}</div>
+                <div style={{textAlign:'center'}} className='header'>{data.name}</div>
                 <div>
-                   <div style={{color:'blue' , float:'left'}}className='description'>{data.email}</div>                   
+                   <div style={{textAlign:'center'}}className='description'>{data.email}</div>                   
                 </div>
                 <div className='description'><hr/></div>                
             </div>           

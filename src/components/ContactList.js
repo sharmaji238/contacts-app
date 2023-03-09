@@ -29,7 +29,7 @@ const ContactList = (props) =>{
                
                
  return (
- <div className="form1">   
+ <div className="form1" style={{opacity: .7}}>   
     <h2 className='subtitle'>
         Contact List
         <Link to="/add">

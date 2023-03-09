@@ -98,8 +98,7 @@ const [searchResult, setSearchResult] = useState([])
     
     <div className='ui container'>
         <Header/>
-        <Routes>          
-        
+        <Routes>       
         <Route path='/' element={<ContactList 
               contacts={search.length< 1 ? contacts : searchResult} 
               getContactId={removeContactHandler}

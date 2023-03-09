@@ -24,7 +24,7 @@ const AddContact=(props)=>{
    
 }   
          return (
-            <form className='form' onSubmit={add}>
+            <form className='form' style={{opacity: .7}} onSubmit={add}>
             <div className='subtitle'>           
             <Link to="/">
             <button className='navigate' style={{float:'right'}}>Contact List</button>           
